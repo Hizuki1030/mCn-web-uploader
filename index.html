@@ -1,1 +1,66 @@
-hello world
+<!DOCTYPE html>
+<script src="https://github.com/dbuezas/arduino-web-uploader/releases/download/v1.0.0/main.js"></script>
+<html lang="ja">
+<head>
+    <title>初めてのFlaskアプリケーション</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <div class="card-group">
+        <div class="card">
+          <div class="card__imgframe"></div>
+          <div class="card__textbox">
+            <div class="card__titletext">
+              CO2 Module
+            </div>
+            <div class="card__overviewtext">
+              BME680を使用した二酸化炭素濃度を測定するデバイスです。
+            </div>
+            <button class="card_button">
+                update Firmware
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__imgframe"></div>
+          <div class="card__textbox">
+            <div class="card__titletext">
+                ENV Module
+            </div>
+            <div class="card__overviewtext">
+              概要がはいります。概要がはいります。概要がはいります。概要がはいります。
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__imgframe"></div>
+          <div class="card__textbox">
+            <div class="card__titletext">
+              Thermo Module
+            </div>
+            <div class="card__overviewtext">
+              概要がはいります。概要がはいります。概要がはいります。概要がはいります。
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__imgframe"></div>
+          <div class="card__textbox">
+            <div class="card__titletext">
+              Gesture Module
+            </div>
+            <div class="card__overviewtext">
+              概要がはいります。概要がはいります。概要がはいります。概要がはいります。
+            </div>
+          </div>
+        </div>
+      </div>
+    <button
+    arduino-uploader
+    hex-href="./sample/sample.ino.eightanaloginputs.hex"
+    board="nanoOldBootloader">
+    Upload blinker to pro-mini and don't verify (faster)
+    <span class="upload-progress"></span></button>
+</body>
+</html>
