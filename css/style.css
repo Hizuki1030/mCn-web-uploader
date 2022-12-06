@@ -69,6 +69,7 @@
   }
 
   .card_button{
+    margin-top: 10px;
     background-color: #bbb;
     font-weight: bold;
     border: none;
